@@ -40,6 +40,6 @@
     "underscore": "1.x"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   }
 }
