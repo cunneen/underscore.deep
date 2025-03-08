@@ -17,7 +17,7 @@ make README.coffee.md
 
 ```
 npm install underscore
-npm install underscore.deep
+npm install @cunneen/underscore.deep
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Javascript (EcmaScript module):
 
 ```js
 import _ from 'underscore';
-import underscoreDeep from 'underscore.deep';
+import underscoreDeep from '@cunneen/underscore.deep';
 _.mixin(underscoreDeep);
 ```
 
@@ -34,7 +34,7 @@ Javascript (CommonJS module):
 
 ```js
 const _ = require('underscore');
-const underscoreDeep = require('underscore.deep');
+const underscoreDeep = require('@cunneen/underscore.deep');
 _.mixin(underscoreDeep);
 ```
 
@@ -42,7 +42,7 @@ CoffeeScript:
 
 ```
 _ = require 'underscore'
-_.mixin require 'underscore.deep'
+_.mixin require '@cunneen/underscore.deep'
 ```
 
 ## Functions
@@ -50,7 +50,7 @@ _.mixin require 'underscore.deep'
     describe 'underscore.deep', ->
       assert = require 'assert'
       _ = require 'underscore'
-      _.mixin require 'underscore.deep'
+      _.mixin require '@cunneen/underscore.deep'
 
 ### _.deepToFlat(obj)
 
