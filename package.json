@@ -1,6 +1,6 @@
 {
   "name": "@cunneen/underscore.deep",
-  "private": "false",
+  "private": false,
   "version": "1.0.0",
   "description": "Underscore mixins for deeply nested objects",
   "main": "./dist/cjs/underscore.deep.js",
