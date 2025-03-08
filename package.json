@@ -14,7 +14,10 @@
   "engines": {
     "node": ">=0.10.x"
   },
-  "repository": "https://github.com/cunneen/underscore.deep",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunneen/underscore.deep.git"
+  },
   "scripts": {
     "prepublish": "make",
     "test": "make test"
